@@ -1,4 +1,3 @@
-# TIL
 # Today I Learned
 시작날짜 : 2020/12/23
 
