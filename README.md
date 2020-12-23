@@ -19,7 +19,7 @@ TIL = Today I Learned
 ## 분류
 ### git
 - 
-### WEB Back-End
+### WEB
 -
 - [백엔드 이론](./web/backend-theory.md)
 ### Node.js
