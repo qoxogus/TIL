@@ -20,7 +20,7 @@ TIL = Today I Learned
 ### git
 - 
 ### 프로그래밍 언어
-- Go
+- [Go](./language/go.md)
 ### WEB
 -
 - [백엔드 이론](./web/backend-theory.md)
