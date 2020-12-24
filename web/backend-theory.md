@@ -18,4 +18,5 @@
 ### [REST API](./restapi.md)
 ### [RESTful](./restful.md)
 ### [JSON](./json.md)
+### [JWT](./jwt.md)
 ### [TOML](./toml.md)
