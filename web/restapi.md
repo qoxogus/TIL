@@ -49,7 +49,8 @@ URI에 행위에 대한 동사 표현이 들어가면 안된다.(즉, CRUD 기�
 - /리소스명/리소스 ID/관계가 있는 다른 리소스명
 - Ex) ```GET : /users/{userid}/devices (일반적으로 소유 ‘has’의 관계를 표현할 때)```
 ### REST API 설계 예시
-![restapi example](./img/restapi-example.png)
+<img src="./img/restapi-example.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="Restapi example"></img>
+
 ### REST API 설명 영상
 - Youtube Link : [REST API][Youtube Link]
 
