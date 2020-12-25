@@ -9,8 +9,6 @@
 - 네트워크
 - 인프라 등
 - API개발이 주가 된다. 프론트에서 전달된 데이터의 포맷이나 데이터베이스 입출력 및 다양한 비즈니스 프로세스를 프로그래밍 코드로 구현하는 역할을 한다.
-### 백엔드 로드맵
-![backend rodemap img](/img/backendrodemap.jpg "rbackend rodemap")
 ### [프로토콜](./protocol.md)
 ### [HTTP](./http.md)
 ### [웹 서버](./web-server.md)
@@ -22,3 +20,6 @@
 ### [JSON](./json.md)
 ### [JWT](./jwt.md)
 ### [TOML](./toml.md)
+<hr>
+### 백엔드 로드맵
+![backend rodemap img](/img/backendrodemap.jpg "rbackend rodemap")
