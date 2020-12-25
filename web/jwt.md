@@ -96,3 +96,4 @@ Cross-Origin Resource Sharing (CORS)는 쿠키를 사용하지 않기 때문에 
 - JWTio Link : [JWT.io][JWTio Link]
 
 [JWTio Link]: https://jwt.io/ "Go jwt.io"
+![jwt.io img](/img/jwtio.png "jwt.io img")
