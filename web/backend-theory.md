@@ -17,6 +17,7 @@
 ### [REST](./rest.md)
 ### [REST API](./restapi.md)
 ### [RESTful](./restful.md)
+### [인증](./certified.md)
 ### [JSON](./json.md)
 ### [JWT](./jwt.md)
 ### [TOML](./toml.md)
