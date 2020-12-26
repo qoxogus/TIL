@@ -22,7 +22,7 @@ TIL = Today I Learned
 ### 프로그래밍 언어
 - [Go](./language/go.md)
 ### WEB
-- [백엔드 이론](./web/backend-theory.md)
+- [백엔드 공부](./web/backend-study.md)
 - #### Node.js
 - #### Go ECHO
 ### DataBase
