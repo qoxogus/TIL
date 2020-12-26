@@ -21,9 +21,9 @@
 
 [github blod link]: https://jjmin321.github.io/development/GO를-사용한-객체지향-프로그래밍/ "Go github blog"
 ### Go의 키워드 25가지
-```
+`
 break, default, func, interface, select, case, defer, go, map, struct, chan, else, goto, package, switch, const, fallthrough, if, range, type, continue, for, import, return, var
-```
+`
 ### Go의 터미널 명령어
 - go build : 소스 파일 자체의 정보만을 사용하여 Go 바이너리를 빌드한다. 별도의 makefile은 없다.
 - go test : 유닛 테스트 및 마이크로벤치마크
