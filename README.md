@@ -17,15 +17,7 @@ TIL = Today I Learned
 `봤으면 별 좀 눌러줘요 싹다 Private으로 변환하는 수가 있습니다^^`
 
 ## 분류
-### git
-- 
 ### 프로그래밍 언어
 - [Go](./language/go.md)
 ### WEB
 - [백엔드 공부](./web/backend-study.md)
-- #### Node.js
-- #### Go ECHO
-### DataBase
-- #### MySQL
-- #### MongoDB
-- #### PostgreSQL 
