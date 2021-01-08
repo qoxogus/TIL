@@ -17,6 +17,8 @@ TIL = Today I Learned
 `봤으면 별 좀 눌러줘요 싹다 Private으로 변환하는 수가 있습니다^^`
 
 ## 분류
+### 코딩을 하며 모르는 영어단어(함수) 정리
+- [English word](./english/word.md)
 ### 프로그래밍 언어
 - [Go](./language/go.md)
 ### WEB
