@@ -22,4 +22,6 @@ TIL = Today I Learned
 ### 프로그래밍 언어
 - [Go](./language/go.md)
 ### WEB
-- [백엔드 공부](./web/backend-study.md)
+- [Back-End Study (백엔드공부)](./web/backend-study.md)
+### DATABASE
+- [Query (쿼리)](./Database/query.md)
