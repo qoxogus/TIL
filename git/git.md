@@ -1,8 +1,16 @@
 # Git 명령어 정리
-📌 쓰여진 코드는 대부분 예시 입니다.
+## 📌 쓰여진 코드는 대부분 예시 입니다.
+<hr>
+
 - 이 명령어를 이용하면 명령어 사용법을 볼 수 있다
 ```bash
 git --help
+```
+<hr>
+
+- git 상태들 확인 (일련번호 등)
+```
+git log
 ```
 <hr>
 
@@ -62,6 +70,9 @@ git checkout <branchname>
 ```bash
 git branch -D <branchname>
 ```
+- `d`는 대소문자 무관  
+<hr>
+
 - github
 ```bash
 git branch -M main
@@ -82,7 +93,7 @@ git add .
 ## commit
 - commit
 ```bash
-- git commit -m "<커밋메세지>"
+git commit -m "<커밋메세지>"
 ```
 <hr>
 
@@ -137,6 +148,10 @@ git reset HEAD~1
 `git reset --mixed` : 헤드없이 하는 것은 수정사항을 모두 삭제할 때  
 `git reset <lognum>` : 커밋의 고유한 로그번호를 이용해서 원하는 커밋으로 되돌릴 수 있다.
 
+- ❗️특정 시점으로 돌아가기 (`복구불가능`)
+```
+git reset (돌아갈 커밋의 일련번호 앞 6자리) --hard
+```
 <hr>
 
 ## revert
@@ -144,10 +159,23 @@ git reset HEAD~1
 ```bash
 git revert
 ```
+- ❗️특정 상태로 돌아가기 (변화를 상쇄)
+```
+git revert (상쇄할 커밋의 앞 6자리)
+```
 - `revert` 와 `reset` 언제 사용해야할까?
     - `reset`은 로컬에서 실수했을 때 
     - `revert`는 실수한 내용을 원격저장소에 올리고 다시 되돌리고 싶을 때
 <hr>
+
+## rebase
+> 다른 브랜치의 변경사항 가져오기 (이력 깔끔히)
+```
+git rebase (대상 브랜치명)
+```
+- `Merge` : (병합)  
+- `Rebase` : (재배치)
+    - 프로젝트의 성격이나 팀의 필요에 따라 `merge`나 `rebase` 중 적절한 것을 선택해서 사용.
 
 ## [Github으로 협업하기](./githubcollaboration.md)
 <hr>
