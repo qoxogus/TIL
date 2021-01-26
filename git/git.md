@@ -126,4 +126,4 @@ git revert
     - `reset`은 로컬에서 실수했을 때 
     - `revert`는 실수한 내용을 원격저장소에 올리고 다시 되돌리고 싶을 때
 
-## [Github으로 협업하기](./git/githubcollaboration.md)
+## [Github으로 협업하기](./githubcollaboration.md)
