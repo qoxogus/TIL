@@ -4,3 +4,4 @@
 - ### parse :  분석하다
 - ### results : 결과, 결실
 - ### author : 저자, 작가
+- ### config : 구성
