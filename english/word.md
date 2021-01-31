@@ -5,4 +5,5 @@
 - ### results : 결과, 결실
 - ### author : 저자, 작가
 - ### config : 구성
-- ### syntax
+- ### syntax : 구문
+- ### log : 기록, 로그를 얻다
