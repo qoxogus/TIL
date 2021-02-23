@@ -8,3 +8,4 @@
 - ### syntax : 구문
 - ### log : 기록, 로그를 얻다
 - ### stack : 쌓다, 쌓기
+- ### inheritance : 상속
