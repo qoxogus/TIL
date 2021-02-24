@@ -9,3 +9,4 @@
 - ### log : 기록, 로그를 얻다
 - ### stack : 쌓다, 쌓기
 - ### inheritance : 상속
+- ### property : 속성
