@@ -10,3 +10,5 @@
 - ### stack : 쌓다, 쌓기
 - ### inheritance : 상속
 - ### property : 속성
+- ### allow : 허가
+- ### deny : 불허
