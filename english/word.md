@@ -12,3 +12,4 @@
 - ### property : 속성
 - ### allow : 허가
 - ### deny : 불허
+- ### exclude / ignore : 배제하다, 빼내다
