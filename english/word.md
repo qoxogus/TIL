@@ -13,3 +13,4 @@
 - ### allow : 허가
 - ### deny : 불허
 - ### exclude / ignore : 배제하다, 빼내다
+- ### state / status : 상태 그 자체의 의미
