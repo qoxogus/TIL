@@ -14,3 +14,5 @@
 - ### deny : 불허
 - ### exclude / ignore : 배제하다, 빼내다
 - ### state / status : 상태 그 자체의 의미
+- ### optimize : 최적화하다
+- ### normalize : 정규화하다
