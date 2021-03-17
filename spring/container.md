@@ -4,7 +4,7 @@
 ## container란
 주입을 이용하여 객체를 관리하는 컨테이너이다.   
 컨테이너의 사전적 의미는 무언가를 담는 용기, 즉 그릇을 의미한다.   
-이를 통해 접급하자면 컨테이너는 객체관리를 주로 수행하는 그릇정도로 이해할 수 있다.   
+이를 통해 접근하자면 컨테이너는 객체관리를 주로 수행하는 그릇정도로 이해할 수 있다.   
 빈의 생성과 관계, 사용, 생명 주기등을 관장한다.   
 컨테이너를 통해 시스템 전반에서 언제는 사용가능하다.
 
@@ -15,7 +15,9 @@
 >Container 가 개발자 대신 알아서 호출합니다.
 
 ```java
-@GetMapping("/greeting") public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) { return new Greeting(counter.incrementAndGet(), String.format(template, name)); }
+@GetMapping("/greeting") public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) { 
+    return new Greeting(counter.incrementAndGet(), String.format(template, name)); 
+}
 ```
 
 개발자가 Container 개념 즉, Spring framework 의 설계를 이해해야 하는 이유는 Container 가 겉으로 드러나지 않기 때문에 처음 Spring 을 접하면 작동 원리를 이해할 수 없습니다. 왜냐하면 일반적으로 모듈 간에 상호작용은 메서드로 이루어져야 하는데 코드를 보면 이러한 작업을 수행하는 코드가 없기 때문입니다.
