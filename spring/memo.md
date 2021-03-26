@@ -172,3 +172,32 @@ AOP가 필요한 상황
 
 - 시간을 측정하는 로직을 변경할 때 모든 로직을 찾아가면서 변경해야한다.
  
+**해결**
+
+- 회원가입, 회원조회등 핵심 관심사항과 시간을 측정하는 공통 관심사항을 분리한다.
+
+- 시간을 측정하는 로직을 별도의 공통 로직으로 만들었다.
+
+- 핵심 관심사항을 깔끔하게 유지할 수 있다.
+
+- 변경이 필요하면 이 로직만 변경하면 된다.
+
+- 원하는 적용 대상을 선택할 수 있다.  
+
+
+Spring의 동작방식
+{스프링 컨테이너}
+helloController -> memberService
+
+AOP의 동작방식
+{스프링 컨테이너}
+helloController -> 프록시memberService 프록시라고 하는 가짜 memberService를 앞에 세워놓음  -> joinPoint.proceed() -> 실제memberService호출
+
+AOP적용후 전체 동작방식
+{스프링 컨테이너}
+프록시helloController -> helloController   
+-> 프록시memberService -> memberService   
+-> 프록시memberRepository -> memberRepository  
+
+DI를 해주니까 이런 AOP가 가능한것이다. (프록시방식의 AOP)
+
