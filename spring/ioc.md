@@ -1,6 +1,6 @@
 # Ioc (Inversion of Control : 제어의 역전)
 : 객체의 생성, 생명주기의 관리까지 모든 객체에 대한 제어권이 바뀌었다는 것을 의미한다.
-- 컴퓨넌트 의존관계 결정 (Component dependency resolution), 설정(configuration) 및 생명주기(lifecycle)를 해결하기 위한 디자인 패턴(Design Pattern)
+- 컴포넌트 의존관계 결정 (Component dependency resolution), 설정(configuration) 및 생명주기(lifecycle)를 해결하기 위한 디자인 패턴(Design Pattern)
 >어떤 객체가 사용할 객체(의존관계인 객체)를 직접 선언하여 사용하는 것이 아니라,
 >어떤 방법을 사용하여(ex.생성자 등..)사용하여 주입 받아 사용것 을 IoC의 일부라고 표현 할 수 있다.
 - ### 일반적인 제어권 : 자기가 사용할 의존성은 자기가 만들어서 사용
