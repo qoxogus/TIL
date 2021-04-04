@@ -27,7 +27,7 @@ TIL = Today I Learned
 - [AWS](./devops/aws/aws.md)
 ### WEB
 - [Back-End Study (백엔드공부)](./web/backend-study.md)
-### Spring ( :참고 [[siwony Github TIL]](https://github.com/siwony/TIL) )
+### Spring
 - [Spring](./spring/all.md)
 ### DATABASE
 - [Query (쿼리)](./Database/query.md)
