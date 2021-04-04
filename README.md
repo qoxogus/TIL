@@ -24,6 +24,7 @@ TIL = Today I Learned
 - [Go](./language/go.md)
 ### DevOps
 - [DevOps](./devops/devops.md)
+- [AWS](./devops/aws/aws.md)
 ### WEB
 - [Back-End Study (백엔드공부)](./web/backend-study.md)
 ### Spring ( :참고 [[siwony Github TIL]](https://github.com/siwony/TIL) )
