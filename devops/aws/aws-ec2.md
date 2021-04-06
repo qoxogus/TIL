@@ -26,6 +26,7 @@ chmod 400 keypairname.pem
 ```
 - AWS instance를 선택 후 연결하기를 누른다  
 또는   
+:예시(퍼블릭 DNS)  
 ```
 ssh -i "keypairname.pem" ec2-user@ec2-100-27-24-4.compute-1.amazonaws.com
 ```
