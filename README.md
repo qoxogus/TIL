@@ -25,6 +25,7 @@ TIL = Today I Learned
 ### DevOps
 - [DevOps](./devops/devops.md)
 - [AWS](./devops/aws/aws.md)
+- [EC2 와 Spring-Boot를 이용하여 간단히 AWS에 배포하기](./devops/aws/aws-ec2.md)
 ### WEB
 - [Back-End Study](./web/backend-study.md)
 ### Spring
