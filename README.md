@@ -30,6 +30,7 @@ TIL = Today I Learned
 - [Back-End Study](./web/backend-study.md)
 ### OOP(객체 지향 프로그래밍)
 - [OOP](./oop/oop.md)
+- [SOLID](./oop/solid.md)
 ### Spring
 - [Spring](./spring/all.md)
 ### DATABASE
