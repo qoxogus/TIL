@@ -22,7 +22,6 @@ TIL = Today I Learned
 - [OOP](./oop/oop.md)
 - [SOLID](./oop/solid.md)
 ### Spring
-- [Spring](./spring/all.md)
 - [Spring](./spring/spring.md)
 - [Spring-Boot](./spring/spring-boot.md)
 - [Container](./spring/container.md)
