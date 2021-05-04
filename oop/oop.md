@@ -44,7 +44,7 @@
 - 각각의 메서드는 서로 연관성이 있어야 한다
 - 객체의 데이터를 외부에서 직접접근을 막는다
 - 함수를 통해서만 조작가능하다 (Ex) getter, setter, 생성자 등)
-- 예시)public, private, protected, deault  
+- 예시)public, private, protected, default  
 > 즉 캡슐화는 은닉성(중요한 데이터를 보존, 보호하기위해 사용한다고 보면된다)
 
 ### 추상화(Abstraction)
