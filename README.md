@@ -56,7 +56,7 @@ TIL = Today I Learned
 - [Count](./database/count.md)
 - [Limit, offset](./database/limit-offset.md)
 - [order by와 정렬](./database/orderby-sort.md)
-- [group by](./database/groupby.md)
+- [group by, having](./database/groupby-having.md)
 ### DevOps
 - [DevOps](./devops/devops.md)
 - [AWS](./devops/aws/aws.md)
