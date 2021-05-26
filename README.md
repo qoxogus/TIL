@@ -54,6 +54,7 @@ TIL = Today I Learned
 ### DATABASE
 - [Transaction (트랜잭션)](./database/transaction.md)
 - [Count](./database/count.md)
+- [Limit, offset](./database/limit-offset.md)
 ### DevOps
 - [DevOps](./devops/devops.md)
 - [AWS](./devops/aws/aws.md)
