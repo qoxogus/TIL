@@ -52,7 +52,8 @@ TIL = Today I Learned
 ### 프로그래밍 언어
 - [Go](./language/go.md)
 ### DATABASE
-- [Query (쿼리)](./Database/query.md)
+- [Transaction (트랜잭션)](./database/transaction.md)
+- [Count](./database/count.md)
 ### DevOps
 - [DevOps](./devops/devops.md)
 - [AWS](./devops/aws/aws.md)
