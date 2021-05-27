@@ -52,11 +52,11 @@ TIL = Today I Learned
 ### 프로그래밍 언어
 - [Go](./language/go.md)
 ### DATABASE
-- [Transaction (트랜잭션)](./database/transaction.md)
-- [Count](./database/count.md)
-- [Limit, offset](./database/limit-offset.md)
-- [order by와 정렬](./database/orderby-sort.md)
-- [group by, having](./database/groupby-having.md)
+- [Transaction (트랜잭션)](./Database/transaction.md)
+- [Count](./Database/count.md)
+- [Limit, offset](./Database/limit-offset.md)
+- [order by와 정렬](./Database/orderby-sort.md)
+- [group by, having](./Database/groupby-having.md)
 ### DevOps
 - [DevOps](./devops/devops.md)
 - [AWS](./devops/aws/aws.md)
