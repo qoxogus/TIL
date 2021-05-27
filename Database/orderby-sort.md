@@ -1,4 +1,4 @@
-# order by와 정렬
+# order by와 정렬(ASC, DESC)
 :테이블에서 select로 데이터를 조회할 때, order by를 추가하여 지정된 컬럼을 기준으로 정렬할 수 있다.
 [MySQL, Oracle 등에서 사용가능]
 오름차순(ASC)과 내림차순(DESC) 두가지 정렬방법이 있습니다.

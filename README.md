@@ -55,7 +55,7 @@ TIL = Today I Learned
 - [Transaction (트랜잭션)](./Database/transaction.md)
 - [Count](./Database/count.md)
 - [Limit, offset](./Database/limit-offset.md)
-- [order by와 정렬](./Database/orderby-sort.md)
+- [order by와 정렬(ASC, DESC)](./Database/orderby-sort.md)
 - [group by, having](./Database/groupby-having.md)
 ### DevOps
 - [DevOps](./devops/devops.md)
