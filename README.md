@@ -57,6 +57,9 @@ TIL = Today I Learned
 - [Limit, offset](./Database/limit-offset.md)
 - [order by와 정렬(ASC, DESC)](./Database/orderby-sort.md)
 - [group by, having](./Database/groupby-having.md)
+#### JPA와 JPQL
+- [fetch join](./Database/jpa-jpql/fetchjoin.md)
+
 ### DevOps
 - [DevOps](./devops/devops.md)
 - [AWS](./devops/aws/aws.md)
