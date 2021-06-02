@@ -177,5 +177,5 @@ git rebase (대상 브랜치명)
 - `Rebase` : (재배치)
     - 프로젝트의 성격이나 팀의 필요에 따라 `merge`나 `rebase` 중 적절한 것을 선택해서 사용.
 
-## [Github으로 협업하기](./githubcollaboration.md)
+## [Github(Git Flow)으로 협업하기](./gitflow.md)
 <hr>
