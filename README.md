@@ -54,6 +54,7 @@ TIL = Today I Learned
 ### 프로그래밍 언어
 - [Go](./language/go.md)
 ### DATABASE
+- [DDL, DML, DCL](./Database/ddl,dml,dcl.md)
 - [Transaction (트랜잭션)](./Database/transaction.md)
 - [Count](./Database/count.md)
 - [Limit, offset](./Database/limit-offset.md)
