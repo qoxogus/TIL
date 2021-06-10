@@ -30,7 +30,7 @@ TIL = Today I Learned
 - [DI (의존성 주입)](./spring/di.md)
 - [Ioc (제어의 역전)](./spring/ioc.md)
 - [DAO, DTO, EntityClass](./spring/dao,dto,entity-class.md)
-- [Spring Memo](./spring/memo.md)
+- [SpringBoot Annotation정리](./spring/annotation.md)
 ### Spring Security
 - [Spring Security?](./spring-security/spring-security.md)
 ### WEB
