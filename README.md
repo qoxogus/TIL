@@ -53,6 +53,7 @@ TIL = Today I Learned
 - [TOML](./web/toml.md)
 ### 프로그래밍 언어
 - [Go](./language/go.md)
+- [Java 메서드 정리](./language/java-method.md)
 ### DATABASE
 - [DDL, DML, DCL](./Database/ddl,dml,dcl.md)
 - [Transaction (트랜잭션)](./Database/transaction.md)
