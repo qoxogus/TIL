@@ -13,6 +13,8 @@ TIL = Today I Learned
 ### OOP(객체 지향 프로그래밍)
 - [OOP](./oop/oop.md)
 - [SOLID](./oop/solid.md)
+### Design Pattern
+- [Singleton Pattern](./design-pattern/singleton-pattern)
 ### Spring
 - [Spring](./spring/spring.md)
 - [Spring-Boot](./spring/spring-boot.md)
