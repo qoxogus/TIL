@@ -28,12 +28,8 @@ TIL = Today I Learned
 ### WEB
 - [WEB의 동작방식](./web/move.md)
 - [Back-End](./web/backend-study.md)
-- [프로토콜](./web/protocol.md)
-- [HTTP](./web/http.md)
 - [웹 서버](./web/web-server.md)
 - [웹 소켓](./web/web-socket.md)
-- [IP 와 도메인](./web/ip-domain.md)
-- [네크워크](./web/network.md)
 - [REST](./web/rest.md)
 - [REST API](./web/restapi.md)
 - [RESTful](./web/restful.md)
@@ -44,6 +40,12 @@ TIL = Today I Learned
 - [JSON](./web/json.md)
 - [JWT](./web/jwt.md)
 - [TOML](./web/toml.md)
+### Network
+- [네크워크](./web/network.md)
+- [HTTP](./web/http.md)
+- [프로토콜](./web/protocol.md)
+- [TCP/IP](./web/tcp-ip.md)
+- [IP 와 도메인](./web/ip-domain.md)
 ### 프로그래밍 언어
 - [Go](./language/go.md)
 - [Java 메서드 정리](./language/java-method.md)
