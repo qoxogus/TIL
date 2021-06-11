@@ -3,15 +3,7 @@
 
 TIL = Today I Learned
 
-그 날 배운 것, 정리 목적의 간단한 글들을 마크다운 문서로 정리 해 보자!
-
-## 작성법  
-- 폴더와 파일명은 될 수 있으면 영문으로 작성한다.
-- Markdown으로 작성하고 파일 확장자는 md.
-- 개발자로서 꾸준한 성장을 위해 학습경험을 기록합니다.
-- 의미없는 커밋은 지양하고 모든 내용은 직접 작성합니다.
-- 해당 문서를 다시 봤을떄, 추가적인 검색의 비용이 들지 않도록 자세히 기록한다.
-
+### 😎 지식 저장소
 
 ## 분류
 ### Git 명령어 정리
@@ -34,6 +26,7 @@ TIL = Today I Learned
 ### Spring Security
 - [Spring Security?](./spring-security/spring-security.md)
 ### WEB
+- [WEB의 동작방식](./web/move.md)
 - [Back-End](./web/backend-study.md)
 - [프로토콜](./web/protocol.md)
 - [HTTP](./web/http.md)
