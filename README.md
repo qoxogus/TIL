@@ -14,7 +14,8 @@ TIL = Today I Learned
 - [OOP](./oop/oop.md)
 - [SOLID](./oop/solid.md)
 ### Design Pattern
-- [Singleton Pattern](./design-pattern/singleton-pattern)
+- [Singleton Pattern](./design-pattern/singleton-pattern.md)
+- [Builder Pattern](./design-pattern/builder-pattern.md)
 ### Spring
 - [Spring](./spring/spring.md)
 - [Spring-Boot](./spring/spring-boot.md)
