@@ -49,7 +49,7 @@ git remote set-url origin url
 ```
 - 원격저장소를 잘못 연결했을 때
 ```bash
-gir remote remove origin
+git remote remove origin
 ```
 <hr>
 
