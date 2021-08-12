@@ -68,3 +68,6 @@ TIL = Today I Learned
 - [EC2 와 Spring-Boot를 이용하여 간단히 AWS에 배포하기](./devops/aws/aws-ec2.md)
 ### 코딩을 하며 모르는 영어단어 정리
 - [English word](./english/word.md)
+
+### 자격증
+* [정보처리기능사](./certificate/information/information.md)
