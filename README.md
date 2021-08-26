@@ -1,22 +1,19 @@
-# Today I Learned
-시작날짜 : 2020/12/23
-
-TIL = Today I Learned
+> 지식을 저장하기 시작한 날짜 : 2020/12/23
 
 ### 😎 지식 저장소
 
-## 분류
-### Git 명령어 정리
+#### Git 명령어 정리
 - [Git](./git/git.md)
-### 백엔드 로드맵
-- [Back-End RoadMap](./web/roadmap.md)
-### OOP(객체 지향 프로그래밍)
+
+#### OOP
 - [OOP](./oop/oop.md)
 - [SOLID](./oop/solid.md)
-### Design Pattern
+
+#### Design Pattern
 - [Singleton Pattern](./design-pattern/singleton-pattern.md)
 - [Builder Pattern](./design-pattern/builder-pattern.md)
-### Spring
+
+#### SpringBoot
 - [Spring](./spring/spring.md)
 - [Spring-Boot](./spring/spring-boot.md)
 - [Container](./spring/container.md)
@@ -26,16 +23,25 @@ TIL = Today I Learned
 - [Ioc (제어의 역전)](./spring/ioc.md)
 - [DAO, DTO, EntityClass](./spring/dao,dto,entity-class.md)
 - [SpringBoot Annotation정리](./spring/annotation.md)
-### Spring Security
 - [Spring Security?](./spring-security/spring-security.md)
-### WEB
-- [WEB의 동작방식](./web/move.md)
-- [Back-End](./web/backend-study.md)
-- [웹 서버](./web/web-server.md)
+
+#### Network
+- [네크워크](./web/network.md)
+- [HTTP](./web/http.md)
+- [프로토콜](./web/protocol.md)
+- [TCP/IP](./web/tcp-ip.md)
+- [IP 와 도메인](./web/ip-domain.md)
 - [웹 소켓](./web/web-socket.md)
+
+#### REST
 - [REST](./web/rest.md)
 - [REST API](./web/restapi.md)
 - [RESTful](./web/restful.md)
+
+#### WEB etc.
+- [WEB의 동작방식](./web/move.md)
+- [Back-End](./web/backend-study.md)
+- [웹 서버](./web/web-server.md)
 - [Cookie](./web/cookie.md)
 - [Session](./web/session.md)
 - [쿠키와 세션의 차이](./web/cookiesessiondifference.md)
@@ -43,31 +49,23 @@ TIL = Today I Learned
 - [JSON](./web/json.md)
 - [JWT](./web/jwt.md)
 - [TOML](./web/toml.md)
-### Network
-- [네크워크](./web/network.md)
-- [HTTP](./web/http.md)
-- [프로토콜](./web/protocol.md)
-- [TCP/IP](./web/tcp-ip.md)
-- [IP 와 도메인](./web/ip-domain.md)
-### 프로그래밍 언어
+
+#### 프로그래밍 언어
 - [Go](./language/go.md)
 - [Java 메서드 정리](./language/java-method.md)
-### DATABASE
+
+#### DATABASE
 - [DDL, DML, DCL](./Database/ddl,dml,dcl.md)
 - [Transaction (트랜잭션)](./Database/transaction.md)
 - [Count](./Database/count.md)
 - [Limit, offset](./Database/limit-offset.md)
 - [order by와 정렬(ASC, DESC)](./Database/orderby-sort.md)
 - [group by, having](./Database/groupby-having.md)
-#### JPA와 JPQL
+
+#### JPA, JPQL
 - [fetch join](./Database/jpa-jpql/fetchjoin.md)
 
-### DevOps
+#### DevOps
 - [DevOps](./devops/devops.md)
 - [AWS](./devops/aws/aws.md)
 - [EC2 와 Spring-Boot를 이용하여 간단히 AWS에 배포하기](./devops/aws/aws-ec2.md)
-### 코딩을 하며 모르는 영어단어 정리
-- [English word](./english/word.md)
-
-### 자격증
-* [정보처리기능사](./certificate/information/information.md)
