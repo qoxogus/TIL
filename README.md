@@ -36,6 +36,9 @@
 - [IP 와 도메인](./web/ip-domain.md)
 - [웹 소켓](./web/web-socket.md)
 
+#### Computer Science
+- [compile, JustInTime compile 이란?](./cs/compile-jitcompile.md)
+
 #### REST
 - [REST](./web/rest.md)
 - [REST API](./web/restapi.md)
