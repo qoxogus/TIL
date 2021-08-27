@@ -39,6 +39,7 @@
 
 #### Computer Science
 - [compile, JustInTime compile 이란?](./cs/compile-jitcompile.md)
+- [Thread 란?](./cs/thread.md)
 
 #### REST
 - [REST](./web/rest.md)
