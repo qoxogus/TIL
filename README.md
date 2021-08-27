@@ -58,10 +58,6 @@
 - [JWT](./web/jwt.md)
 - [TOML](./web/toml.md)
 
-#### 프로그래밍 언어
-- [Go](./language/go.md)
-- [Java 메서드 정리](./language/java-method.md)
-
 #### DATABASE
 - [DDL, DML, DCL](./Database/ddl,dml,dcl.md)
 - [Transaction (트랜잭션)](./Database/transaction.md)
@@ -77,3 +73,7 @@
 - [DevOps](./devops/devops.md)
 - [AWS](./devops/aws/aws.md)
 - [EC2 와 Spring-Boot를 이용하여 간단히 AWS에 배포하기](./devops/aws/aws-ec2.md)
+
+#### 프로그래밍 언어
+- [Go](./language/go.md)
+- [Java 메서드 정리](./language/java-method.md)
