@@ -51,3 +51,51 @@ new Thread(() -> {
     System.out.println("Hello taehyeon");
 }).start();
 ```
+
+### 함수형 인터페이스와 람다
+`@FunctionalInterface` 는 일반적으로 구현해야 할 추상메소드가 하나만 정의돈 인터페이스르 가르킵니다.  
+
+자바 컴파일러는 이렇게 명시된 함수형 인터페이스에 두개 이상의 메소드가 선언되면 오류를 발생시킵니다.
+
+```java
+//구현해야 할 메소드가 한개이므로 Functional Interface이다.
+@FunctionalInterface
+public interface Math {
+    public int Calc(int first, int second);
+}
+
+//구현해야 할 메소드가 두개이므로 Functional Interface가 아니다. (오류 사항)
+@FunctionalInterface
+public interface Math {
+    public int Calc(int first, int second);
+    public int Calc2(int first, int second);
+}
+```
+
+* 함수형 인터레이스 람다 사용 예제
+> 함수형 인터페이스 선언
+```java
+@FunctionalInterface
+interface Math {
+    public int Calc(int first, int second);
+}
+```
+
+> 추상 메소드 구현 및 함수형 인터페이스 사용
+```java
+public static void main(String[] args){
+
+   Math plusLambda = (first, second) -> first + second;
+   System.out.println(plusLambda.Calc(4, 2));
+
+   Math minusLambda = (first, second) -> first - second;
+   System.out.println(minusLambda.Calc(4, 2));
+
+}
+```
+
+> 실행결과
+```
+6
+2
+```
