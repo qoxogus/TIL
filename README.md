@@ -14,6 +14,7 @@
 - [JVM, JRE, JDK의 차이](./java/jvm-jre-jdk.md)
 - [Optional 이란?](./java/optional.md)
 - [Lambda 란?](./java/lambda.md)
+- [Collection 이란?](./java/collection.md)
 
 #### Design Pattern
 - [Singleton Pattern](./design-pattern/singleton-pattern.md)
