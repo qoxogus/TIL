@@ -70,6 +70,7 @@
 - [Limit, offset](./Database/limit-offset.md)
 - [order by와 정렬(ASC, DESC)](./Database/orderby-sort.md)
 - [group by, having](./Database/groupby-having.md)
+- [Join의 종류와 차이](./Database/join.md)
 
 #### JPA, JPQL
 - [fetch join](./Database/jpa-jpql/fetchjoin.md)
