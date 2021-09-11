@@ -85,3 +85,6 @@
 #### 프로그래밍 언어
 - [Go](./language/go.md)
 - [Java 메서드 정리](./language/java-method.md)
+
+### 용어
+- [모르거나 헷갈리는 개발용어 정리](./etc/dev-terminology.md)
