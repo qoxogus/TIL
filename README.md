@@ -45,6 +45,7 @@
 #### Computer Science
 - [compile, JustInTime compile 이란?](./cs/compile-jitcompile.md)
 - [Thread 란?](./cs/thread.md)
+- [Memory 구조, 메모리구조는 알고 코딩하고 계신가요?](./cs/memory-structure.md)
 
 #### REST
 - [REST](./web/rest.md)
