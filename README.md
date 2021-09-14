@@ -42,6 +42,7 @@
 - [웹 소켓](./web/web-socket.md)
 - [프록시란?](./network/proxy.md)
 - [Gateway란?](./network/gateway.md)
+- [스위치, 라우터, 허브](./network/switch-router-hurb.md)
 
 #### Computer Science
 - [compile, JustInTime compile 이란?](./cs/compile-jitcompile.md)
