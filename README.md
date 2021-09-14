@@ -40,6 +40,7 @@
 - [TCP/IP](./web/tcp-ip.md)
 - [IP 와 도메인](./web/ip-domain.md)
 - [웹 소켓](./web/web-socket.md)
+- [방화벽이란?](./network/firewall.md)
 - [프록시란?](./network/proxy.md)
 - [Gateway란?](./network/gateway.md)
 - [스위치, 라우터, 허브](./network/switch-router-hurb.md)
