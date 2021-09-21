@@ -214,7 +214,7 @@ stream2.sorted(Comparator.reverseOrder()).forEach(s -> System.out.print(s + " ")
 4. 요소의 검사 : `anyMatch()`, `allMatch()`, `noneMatch()`
 5. 요소의 통계 : `count()`, `min()`, `max()`
 6. 요소의 연산 : `sum()`, `average()`
-7. 요소의 수집 ㅣ `collect()`
+7. 요소의 수집 : `collect()`
 
 ```java
 // forEach
