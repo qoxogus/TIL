@@ -53,23 +53,7 @@
 - [직렬화란?](./cs/serialization.md)
 - [Memory 구조, 메모리구조는 알고 코딩하고 계신가요?](./cs/memory-structure.md)
 - [cache란?](./cs/cache.md)
-
-#### REST
-- [REST](./web/rest.md)
-- [REST API](./web/restapi.md)
-- [RESTful](./web/restful.md)
-
-#### WEB etc.
-- [WEB의 동작방식](./web/move.md)
-- [Back-End](./web/backend-study.md)
-- [웹 서버](./web/web-server.md)
-- [Cookie](./web/cookie.md)
-- [Session](./web/session.md)
-- [쿠키와 세션의 차이](./web/cookiesessiondifference.md)
-- [인증](./web/certified.md)
-- [JSON](./web/json.md)
-- [JWT](./web/jwt.md)
-- [TOML](./web/toml.md)
+- [교착상태(DeadLock)와 교착상태의 해결, 예방, 회피, 탐지, 복구](./cs/deadlock.md)
 
 #### DATABASE
 - [DDL, DML, DCL](./Database/ddl,dml,dcl.md)
@@ -87,6 +71,23 @@
 - [DevOps](./devops/devops.md)
 - [AWS](./devops/aws/aws.md)
 - [EC2 와 Spring-Boot를 이용하여 간단히 AWS에 배포하기](./devops/aws/aws-ec2.md)
+
+#### REST
+- [REST](./web/rest.md)
+- [REST API](./web/restapi.md)
+- [RESTful](./web/restful.md)
+
+#### WEB etc.
+- [WEB의 동작방식](./web/move.md)
+- [Back-End](./web/backend-study.md)
+- [웹 서버](./web/web-server.md)
+- [Cookie](./web/cookie.md)
+- [Session](./web/session.md)
+- [쿠키와 세션의 차이](./web/cookiesessiondifference.md)
+- [인증](./web/certified.md)
+- [JSON](./web/json.md)
+- [JWT](./web/jwt.md)
+- [TOML](./web/toml.md)
 
 #### 프로그래밍 언어
 - [Go](./language/go.md)
