@@ -10,6 +10,7 @@
 - [SOLID](./oop/solid.md)
 
 #### Java
+- [생성자란?](./java/constructure.md)
 - [JVM 이란?](./java/jvm.md)
 - [JVM, JRE, JDK의 차이](./java/jvm-jre-jdk.md)
 - [Jackson 라이브러리 알아보기](./java/jackson.md)
