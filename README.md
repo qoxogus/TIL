@@ -15,6 +15,7 @@
 - [JVM, JRE, JDK의 차이](./java/jvm-jre-jdk.md)
 - [Jackson 라이브러리 알아보기](./java/jackson.md)
 - [Wrapper Class 란?](./java/wrapper-class.md)
+- [Garbage Collector(GC) 이해하기](./java/gc.md)
 - [Optional 이란?](./java/optional.md)
 - [Lambda 란?](./java/lambda.md)
 - [Collection 이란?](./java/collection.md)
