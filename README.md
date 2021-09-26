@@ -17,6 +17,7 @@
 - [Jackson 라이브러리 알아보기](./java/jackson.md)
 - [Wrapper Class 란?](./java/wrapper-class.md)
 - [Garbage Collector(GC) 이해하기](./java/gc.md)
+- [String대신 StringBuilder를 사용해야하는 이유(StringBuffer)](./java/stringbuilder.md)
 - [Optional 이란?](./java/optional.md)
 - [Lambda 란?](./java/lambda.md)
 - [Collection 이란?](./java/collection.md)
