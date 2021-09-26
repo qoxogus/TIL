@@ -12,6 +12,7 @@
 #### Java
 - [생성자란?](./java/constructure.md)
 - [JVM 이란?](./java/jvm.md)
+- [JVM의 메모리구조](./java/jvm-memory-structure.md)
 - [JVM, JRE, JDK의 차이](./java/jvm-jre-jdk.md)
 - [Jackson 라이브러리 알아보기](./java/jackson.md)
 - [Wrapper Class 란?](./java/wrapper-class.md)
