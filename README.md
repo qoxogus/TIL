@@ -10,13 +10,14 @@
 - [SOLID](./oop/solid.md)
 
 #### Java
-- [생성자란?](./java/constructure.md)
+- [생성자란?](./java/constructor.md)
 - [JVM 이란?](./java/jvm.md)
 - [JVM의 메모리구조](./java/jvm-memory-structure.md)
 - [JVM, JRE, JDK의 차이](./java/jvm-jre-jdk.md)
 - [Jackson 라이브러리 알아보기](./java/jackson.md)
 - [Wrapper Class 란?](./java/wrapper-class.md)
 - [Garbage Collector(GC) 이해하기](./java/gc.md)
+- [POJO 란?](./java/pojo.md)
 - [String대신 StringBuilder를 사용해야하는 이유(StringBuffer)](./java/stringbuilder.md)
 - [Optional 이란?](./java/optional.md)
 - [Lambda 란?](./java/lambda.md)
