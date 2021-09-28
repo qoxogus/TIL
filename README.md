@@ -23,6 +23,7 @@
 - [Lambda 란?](./java/lambda.md)
 - [Collection 이란?](./java/collection.md)
 - [Stream API 란?](./java/stream-api.md)
+- [Generic 이란?](./java/generic.md)
 
 #### Design Pattern
 - [Singleton Pattern](./design-pattern/singleton-pattern.md)
