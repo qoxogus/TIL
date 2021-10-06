@@ -28,6 +28,7 @@
 #### Design Pattern
 - [Singleton Pattern](./design-pattern/singleton-pattern.md)
 - [Builder Pattern](./design-pattern/builder-pattern.md)
+- [Strategy Pattern](./design-pattern/strategy-pattern.md)
 
 #### SpringBoot
 - [Spring](./spring/spring.md)
