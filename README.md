@@ -55,6 +55,7 @@
 - [프록시란?](./network/proxy.md)
 - [Gateway란?](./network/gateway.md)
 - [스위치, 라우터, 허브](./network/switch-router-hurb.md)
+- [포트 포워딩이란 ?](./network/port-forwarding.md)
 
 #### Computer Science
 - [compile, JustInTime compile 이란?](./cs/compile-jitcompile.md)
@@ -65,7 +66,7 @@
 - [cache란?](./cs/cache.md)
 - [교착상태(DeadLock)와 교착상태의 해결, 예방, 회피, 탐지, 복구](./cs/deadlock.md)
 
-#### DATABASE
+#### Database
 - [DDL, DML, DCL](./Database/ddl,dml,dcl.md)
 - [Transaction (트랜잭션)](./Database/transaction.md)
 - [Count](./Database/count.md)
@@ -82,12 +83,12 @@
 - [AWS](./devops/aws/aws.md)
 - [EC2 와 Spring-Boot를 이용하여 간단히 AWS에 배포하기](./devops/aws/aws-ec2.md)
 
-#### REST
+#### Rest
 - [REST](./web/rest.md)
 - [REST API](./web/restapi.md)
 - [RESTful](./web/restful.md)
 
-#### WEB etc.
+#### Web etc.
 - [WEB의 동작방식](./web/move.md)
 - [Back-End](./web/backend-study.md)
 - [웹 서버](./web/web-server.md)
