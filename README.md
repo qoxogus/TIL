@@ -1,9 +1,9 @@
-> 지식을 저장하기 시작한 날짜 : 2020/12/23
-
 ### 😎 지식 저장소
 
-#### Git 명령어 정리
-- [Git](./git/git.md)
+> 지식을 저장하기 시작한 날짜 : 2020/12/23
+
+#### Git
+- [Git Commands](./git/git.md)
 
 #### OOP
 - [OOP](./oop/oop.md)
@@ -100,9 +100,9 @@
 - [JWT](./web/jwt.md)
 - [TOML](./web/toml.md)
 
-#### 프로그래밍 언어
+#### Programming Language
 - [Go](./language/go.md)
 - [Java 메서드 정리](./language/java-method.md)
 
-### 용어
+#### Developed Terminology
 - [모르거나 헷갈리는 개발용어 정리](./etc/dev-terminology.md)
