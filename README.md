@@ -17,14 +17,14 @@
 - [Jackson 라이브러리 알아보기](./java/jackson.md)
 - [Wrapper Class 란?](./java/wrapper-class.md)
 - [Garbage Collector(GC) 이해하기](./java/gc.md)
-- [POJO 란?](./java/pojo.md)
+- [Builder 패턴을 사용해야하는 이유](./java/use-builder.md)
 - [String대신 StringBuilder를 사용해야하는 이유(StringBuffer)](./java/stringbuilder.md)
+- [POJO 란?](./java/pojo.md)
 - [Optional 이란?](./java/optional.md)
 - [Lambda 란?](./java/lambda.md)
 - [Collection 이란?](./java/collection.md)
 - [Stream API 란?](./java/stream-api.md)
 - [Generic 이란?](./java/generic.md)
-- [Builder 패턴을 사용해야하는 이유](./java/use-builder.md)
 - [Reflection 이란?](./java/reflection.md)
 
 #### Design Pattern
@@ -41,8 +41,8 @@
 - [DI (의존성 주입)](./spring/di.md)
 - [Ioc (제어의 역전)](./spring/ioc.md)
 - [DAO, DTO, EntityClass](./spring/dao,dto,entity-class.md)
-- [SpringBoot Annotation정리](./spring/annotation.md)
 - [Spring Security?](./spring-security/spring-security.md)
+- [SpringBoot에서 사용하는 Annotation정리](./spring/annotation.md)
 
 #### Network
 - [네크워크](./web/network.md)
