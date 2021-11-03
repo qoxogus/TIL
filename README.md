@@ -67,6 +67,7 @@
 - [교착상태(DeadLock)와 교착상태의 해결, 예방, 회피, 탐지, 복구](./cs/deadlock.md)
 
 #### Data Structure, Algorithm
+- [선형 자료구조, 비선형 자료구조](./datastructure/linear-nonlinear.md)
 - [트리](./datastructure/tree.md)
     - [트리의 순회 (InOrder, PreOrder, PostOrder, DFS/BFS)](./datastructure/tree-traversal.md)
 
