@@ -28,3 +28,8 @@
 
 ![](../img/postorder.png)  
 (노드가 존재하지 않을 때 까지 현재 노드의 왼쪽 자식 -> 오른쪽 자식 현재 노드 순서로 순회)
+
+### DFS/BFS
+> 위 3가지 모두 DFS/BFS 안에 있다  
+
+[[DFS/BFS에 대한 좋은 자료]](https://devuna.tistory.com/32)
