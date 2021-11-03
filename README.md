@@ -68,7 +68,7 @@
 
 #### Data Structure, Algorithm
 - [트리](./datastructure/tree.md)
-    - [트리의 순회 (InOrder, PreOrder, PostOrder)](./datastructure/tree-traversal.md)
+    - [트리의 순회 (InOrder, PreOrder, PostOrder, DFS/BFS)](./datastructure/tree-traversal.md)
 
 #### Database
 - [DDL, DML, DCL](./Database/ddl,dml,dcl.md)
