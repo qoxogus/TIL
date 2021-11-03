@@ -66,6 +66,10 @@
 - [cache란?](./cs/cache.md)
 - [교착상태(DeadLock)와 교착상태의 해결, 예방, 회피, 탐지, 복구](./cs/deadlock.md)
 
+#### Data Structure, Algorithm
+- [트리](./datastructure/tree.md)
+    - [트리의 순회 (InOrder, PreOrder, PostOrder)](./datastructure/tree-traversal.md)
+
 #### Database
 - [DDL, DML, DCL](./Database/ddl,dml,dcl.md)
 - [Transaction (트랜잭션)](./Database/transaction.md)
