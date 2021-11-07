@@ -72,6 +72,7 @@
 - [Tree](./datastructure/tree.md)
     - [Tree의 순회 (InOrder, PreOrder, PostOrder, DFS/BFS)](./datastructure/tree-traversal.md)
     - [이진 Tree와 이진 Tree의 순회](./datastructure/binary-tree.md)
+    - [이진 탐색 트리와 이진 트리의 종류](./datastructure/binary-search-tree.md)
 
 #### Database
 - [DDL, DML, DCL](./Database/ddl,dml,dcl.md)
