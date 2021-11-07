@@ -69,8 +69,9 @@
 #### Data Structure, Algorithm
 - [자료구조란 ?](./datastructure/datastructure.md)
 - [선형 자료구조, 비선형 자료구조](./datastructure/linear-nonlinear.md)
-- [트리](./datastructure/tree.md)
-    - [트리의 순회 (InOrder, PreOrder, PostOrder, DFS/BFS)](./datastructure/tree-traversal.md)
+- [Tree](./datastructure/tree.md)
+    - [Tree의 순회 (InOrder, PreOrder, PostOrder, DFS/BFS)](./datastructure/tree-traversal.md)
+    - [이진 Tree와 이진 Tree의 순회](./datastructure/binary-tree.md)
 
 #### Database
 - [DDL, DML, DCL](./Database/ddl,dml,dcl.md)
