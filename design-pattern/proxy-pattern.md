@@ -33,7 +33,7 @@
 ![](../img/proxy-pattern-table.png)
 
 클라이언트가 어떤 일에 대한 요청(`RealSubject의 request()메서드 호출`)을 하면  
-Proxy가 대신 RealSubject의 request()메서드 호출을 하고 그 반환 값을 클라이언트에게 전달합니다.
+Proxy가 대신 RealSubject의 `request()`메서드 호출을 하고 그 반환 값을 클라이언트에게 전달합니다.
 
 ### 프록시 패턴 간단 예제
 ![](../img/proxy-pattern-example.png)
@@ -96,7 +96,7 @@ public class Main {
 Client -> Proxy -> RealSubject
 ```
 
-> 결과
+> 실행 결과
 >
 > 호출에 대한 흐름 제어가 주 목적, 반환 결과를 그대로 전달  
 > 서비스입니다.
