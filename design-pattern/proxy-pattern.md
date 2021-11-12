@@ -56,7 +56,7 @@ public class Service implements IService {
 
     @Override
     public String runSomething() {
-        return "";
+        return "서비스입니다.";
     }
 }
 ```
