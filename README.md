@@ -15,6 +15,7 @@
 - [JVM의 메모리구조](./java/jvm-memory-structure.md)
 - [JVM, JRE, JDK의 차이](./java/jvm-jre-jdk.md)
 - [Jackson 라이브러리 알아보기](./java/jackson.md)
+- [IS-A 관계란 ?](./java/is-a.md)
 - [Wrapper Class 란?](./java/wrapper-class.md)
 - [Garbage Collector(GC) 이해하기](./java/gc.md)
 - [Builder 패턴을 사용해야하는 이유](./java/use-builder.md)
