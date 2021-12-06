@@ -6,6 +6,7 @@
 - [Git Commands](./git/git.md)
 
 #### OOP
+- [Java 객체지향 관련 용어 정리](./oop/obj-oriented-terms.md)
 - [OOP](./oop/oop.md)
 - [SOLID](./oop/solid.md)
 
