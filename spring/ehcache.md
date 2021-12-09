@@ -140,7 +140,7 @@ key에 따라 캐시를 선택해서 제거가 가능하다.
 이 **상황에서 캐시에 따라 어떻게 수행속도에서 차이가 나는지 비교**해보자 !
 
 ### NoCache
-```http
+```
 http://localhost:8080/nocache/qoxogus
 ```
 위의 주소로 3번의 요청을 보냈다.  
@@ -149,7 +149,7 @@ http://localhost:8080/nocache/qoxogus
 ![](../img/ehcache-nocache.png)
 
 ### Cache
-```http
+```
 http://localhost:8080/cache/qoxogus
 ```
 위의 주소로 6번의 요청을 보냈다.   
@@ -163,7 +163,7 @@ http://localhost:8080/cache/qoxogus
 이럴 경우 기존에 저장된 캐시 데이터를 제거하면,  
 이후 호출에 대해 다시 갱신된 데이터를 캐시하게 될 것이다.
 
-```http
+```
 http://localhost:8080/member/cache/qoxogus
 
 http://localhost:8080/member/cache/refresh/qoxogus
@@ -179,7 +179,7 @@ http://localhost:8080/member/cache/qoxogus
 ### Cache-key
 동일 Cache가 key에 따라 별도로 캐시되는지 확인해보자.
 
-```http
+```
 http://localhost:8080/member/cache/qoxogus
 
 http://localhost:8080/member/cache/test
