@@ -1,5 +1,7 @@
 # SpringBoot에서 Ehcache 사용해보기
 
+### [[velog 글]](https://velog.io/@qoxogus/SpringBoot%EC%97%90%EC%84%9C-Ehcache-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0)
+
 일단 Cache를 사용하여 데이터를 가져오는 이유를 모르는 사람들을 위해 간략하게 설명 해 보겠다.  
 
 > 우리가 기본적으로 cache를 사용하여 데이터를 가져오는 이유는  
@@ -195,5 +197,3 @@ http://localhost:8080/member/cache/test
     * 데이터의 무결성이 깨질 염려가 있다.
 * 데이터 조회 여러 곳에 Cache를 적용하려면 ImMemory에 쌓이는 Memory 양도 생각해야 한다.
     * 이 부분은 Cache의 생명주기를 어떻게 설정하느냐에 따라 극복할 수도 있다고 생각한다.
-
-### [[velog 글]](https://velog.io/@qoxogus/SpringBoot%EC%97%90%EC%84%9C-Ehcache-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0)
