@@ -26,8 +26,8 @@ default로 classpath의 ehcache.xml을 찾아간다곤 하는데 난 확실히 �
 
 spring:
     cache:
-    ehcache:
-      config: classpath:ehcache.xml
+      ehcache:
+        config: classpath:ehcache.xml
 ```
 
 ```xml
