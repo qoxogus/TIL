@@ -2,6 +2,9 @@
 
 ### [[velog 글]](https://velog.io/@qoxogus/SpringBoot%EC%97%90%EC%84%9C-Ehcache-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0)
 
+모든 코드는 [Github](https://github.com/qoxogus/example-code/tree/master/Ehcache)에서 관리중입니다.  
+필요할 시 확인하시면 될 것 같습니다. 😊
+
 일단 Cache를 사용하여 데이터를 가져오는 이유를 모르는 사람들을 위해 간략하게 설명 해 보겠다.  
 
 > 우리가 기본적으로 cache를 사용하여 데이터를 가져오는 이유는  
