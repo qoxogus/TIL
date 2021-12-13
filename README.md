@@ -98,6 +98,7 @@
 - [DevOps](./devops/devops.md)
 - [AWS](./devops/aws/aws.md)
 - [EC2 와 Spring-Boot를 이용하여 간단히 AWS에 배포하기](./devops/aws/aws-ec2.md)
+- [Elastic Beanstalk 이란?](./devops/aws/elastic-beanstalk.md)
 
 #### Rest
 - [REST](./web/rest.md)
