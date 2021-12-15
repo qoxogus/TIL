@@ -99,7 +99,7 @@
 - [AWS](./devops/aws/aws.md)
 - [EC2 와 Spring-Boot를 이용하여 간단히 AWS에 배포하기](./devops/aws/aws-ec2.md)
 - [Elastic Beanstalk 이란?](./devops/aws/elastic-beanstalk.md)
-
+- [Elastic Beanstalk 환경에서 서브도메인을 설정하는 방법](./devops/aws/eb-sub-domain.md)
 #### Rest
 - [REST](./web/rest.md)
 - [REST API](./web/restapi.md)
