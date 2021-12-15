@@ -95,6 +95,7 @@
 - [N+1 문제와 해결](https://velog.io/@qoxogus/JPA-N1-%EB%AC%B8%EC%A0%9C%EC%99%80-%ED%95%B4%EA%B2%B0)
 
 #### DevOps
+- [온 프레미스, 오프 프레미스](./devops/on-off-premise.md)
 - [DevOps](./devops/devops.md)
 - [AWS](./devops/aws/aws.md)
 - [EC2 와 Spring-Boot를 이용하여 간단히 AWS에 배포하기](./devops/aws/aws-ec2.md)
