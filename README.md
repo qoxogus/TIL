@@ -127,3 +127,6 @@
 
 #### Development Terminology
 - [모르거나 헷갈리는 개발용어 정리](./etc/dev-terminology.md)
+
+#### Tech-Interview
+- [기술면접 준비하기](./etc/tech-interview.md)
