@@ -32,3 +32,7 @@ Spring Boot는 **내부에 Tomcat이 포함되어있어 따로 설치하거나 �
 * 동일성보장
 * 쓰기 지연
 * 지연로딩
+
+## Hibernate는 무엇인가요 ?
+**JPA의 구현체 중에 하나로 JPA의 대부분이 Hibernate로  
+구현되었으며 내부적으로 JDBC API를 사용**합니다.
