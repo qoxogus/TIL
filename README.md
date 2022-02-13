@@ -43,6 +43,7 @@
 - [Container](./spring/container.md)
 - [Bean (컨테이너가 관리하는 JAVA객체)](./spring/bean.md)
 - [AOP (관점지향 프로그래밍)](./spring/aop.md)
+- [PSA](./spring/psa.md)
 - [DI (의존성 주입)](./spring/di.md)
 - [Ioc (제어의 역전)](./spring/ioc.md)
 - [DAO, DTO, EntityClass](./spring/dao,dto,entity-class.md)
