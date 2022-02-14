@@ -50,6 +50,7 @@
 - [Spring Security?](./spring-security/spring-security.md)
 - [SpringBoot에서 사용하는 Annotation정리](./spring/annotation.md)
 - [SpringBoot에서 Ehcache 사용해보기](./spring/ehcache.md)
+- [@Transactional 옵션](./spring/transactional-option.md)
 
 #### DevOps
 - [온 프레미스, 오프 프레미스](./devops/on-off-premise.md)
