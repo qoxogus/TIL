@@ -1,6 +1,6 @@
 # SOLID (좋은 객체지향 설계의 5가지 원칙)
 
-> SPR, OCP, LSP, ISP, DIP 를 하나로 부르는 말 이다
+> SRP, OCP, LSP, ISP, DIP 를 하나로 부르는 말 이다
 
 ## S | SRP 단일 책임 원칙 (Single responsibillity principle)
 : 생성된 클래스는 하나의 기능만 가지며, 클래스가 제공하는 모든 서비스는 그 하나의 책임을 수행하는데 집중되어 있어야 한다
