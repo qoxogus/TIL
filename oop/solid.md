@@ -2,7 +2,7 @@
 
 > SPR, OCP, LSP, ISP, DIP 를 하나로 부르는 말 이다
 
-## S | SPR 단일 책임 원칙 (Single responsibillity principle)
+## S | SRP 단일 책임 원칙 (Single responsibillity principle)
 : 생성된 클래스는 하나의 기능만 가지며, 클래스가 제공하는 모든 서비스는 그 하나의 책임을 수행하는데 집중되어 있어야 한다
 - 한 클래스는 하나의 책임만을 가져야 한다
 - 변화에 대한 유연성 확보
