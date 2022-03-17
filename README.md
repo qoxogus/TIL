@@ -52,6 +52,7 @@
 - [SpringBoot에서 사용하는 Annotation정리](./spring/annotation.md)
 - [SpringBoot에서 Ehcache 사용해보기](./spring/ehcache.md)
 - [@Transactional 옵션](./spring/transactional-option.md)
+- [service의 구현체를 하나만 구현해도 interface를 사용하여 impl로 구현하는 이유](./spring/service-impl.md)
 
 #### DevOps
 - [온 프레미스, 오프 프레미스](./devops/on-off-premise.md)
