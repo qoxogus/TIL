@@ -78,6 +78,16 @@ thread-safe 하게 싱글톤을 구현 하려면
 먼저 **프레임워크는 정해진 틀에서 프로그래밍을 하는 방식**이며,  
 **라이브러리는 먼저 만들어진 코드를 가져다 쓰는 방식**입니다.
 
+## filter와 interceptor의 차이는 무엇인가요 ?
+filter는 **dispatcher 서블렛보다 먼저 위치**해있어요.  
+또한 servlet 스펙에 포함되어있어요.
+그러므로 dispatcher 서블렛에 요청이 전달되기 전에 요청에 대한 부가적인 일을 처리할 수 있어요.  
+> (에러 핸들링, 로깅, 이미지/데이터 압축 및 문자열 인코딩)
+
+interceptor는 spring application(spring context) 내부에 위치해있으며, **dispatcher 서블렛 뒤에 위치**해있어요.
+interceptor 또한 Controller로 요청이 전달되기 전에 요청에 대한 부가적인 일을 처리할 수 있어요.   
+> (인증/인가 등과 같은 공통 작업, Controller로 넘겨주는 정보의 가공, API 로깅)
+
 ## JPA가 무엇인가요 ?
 현재 **자바진영의 ORM 기술 표준으로 인터페이스의 모음**입니다.
 
