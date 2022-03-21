@@ -82,7 +82,7 @@ thread-safe 하게 싱글톤을 구현 하려면
 filter는 **dispatcher 서블렛보다 먼저 위치**해있어요.  
 또한 servlet 스펙에 포함되어있어요.
 그러므로 dispatcher 서블렛에 요청이 전달되기 전에 요청에 대한 부가적인 일을 처리할 수 있어요.  
-> (에러 핸들링, 로깅, 이미지/데이터 압축 및 문자열 인코딩)
+> (요청에 대한 로깅, 이미지/데이터 압축 및 문자열 인코딩)
 
 interceptor는 spring application(spring context) 내부에 위치해있으며, **dispatcher 서블렛 뒤에 위치**해있어요.
 interceptor 또한 Controller로 요청이 전달되기 전에 요청에 대한 부가적인 일을 처리할 수 있어요.   
