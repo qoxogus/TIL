@@ -29,7 +29,7 @@
 - [Generic 이란?](./java/generic.md)
 - [Reflection 이란?](./java/reflection.md)
 - [Interceptor 란?](./java/interceptor.md)
-- [동시성 문제와 ThreadLocal](https://velog.io/@qoxogus/Java-%EB%8F%99%EC%8B%9C%EC%84%B1-%EB%AC%B8%EC%A0%9C%EC%99%80-ThreadLocal)
+- [동시성 문제와 ThreadLocal](https://baeter.tistory.com/12)
 - [List To Page](./java/list-to-page.md)
 
 #### Design Pattern
@@ -106,7 +106,7 @@
 
 #### JPA, JPQL
 - [fetch join](./Database/jpa-jpql/fetchjoin.md)
-- [N+1 문제와 해결](https://velog.io/@qoxogus/JPA-N1-%EB%AC%B8%EC%A0%9C%EC%99%80-%ED%95%B4%EA%B2%B0)
+- [N+1 문제와 해결](https://baeter.tistory.com/11)
 
 #### Rest
 - [REST](./web/rest.md)
