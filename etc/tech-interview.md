@@ -67,6 +67,29 @@ LTS란 Long Term Support의 줄임말로
 일반적인 버전보다 장기간에 걸쳐 지원하도록 특별히 고안된 소프트웨어의 버전 또는 에디션입니다.
 > Java에서 대표적인 LTS 버전은 Java8, Java11 가장 최근에 나온 Java17이 있어요.
 
+## Java 8 이후로 향상된 기능에는 무엇이 있나요 ?
+### Java8 (LTS)
+* Lambda 표현식
+* Functional 인터페이스
+* 인터페이스의 Default method
+* Stream
+* Optional
+* 날짜 관련 클래스 (`java.time`)
+* 메서드 레퍼런스
+
+### Java 11 (LTS)
+* HTTP/2 지원
+* 람다 지역변수 구문 (var)
+* 모듈
+* 프로파일링 및 진단
+* 가비지 수집
+* Docker 컨테이너에 대한 향상된 기능
+* 성능 향상
+
+### Java 17 (LTS)
+* `java.util.Random` 클래스 확장
+* 새로운 라이센스 적용
+
 ## GC에 대해 설명해주세요
 **쓰레기 객체를 청소하는 작업을 GC**라고 합니다.  
 **JVM의 Heap 영역**에서 다루며,  
