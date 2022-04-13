@@ -139,7 +139,7 @@ Spring Boot는 **내부에 Tomcat이 포함되어있어 따로 설치하거나 �
 ## Spring Bean에 대해 설명해주세요.
 ApplicationContext(BeanFactory)가 알고있는 객체,  
 즉 ApplicationContext(BeanFactory)가 만들어서 그 안에 담고있는 객체,  
-Spring에 의하여 관리당하는 자바 객체를 의미해요.
+**Spring에 의하여 관리당하는 자바 객체**를 의미해요.
 > 우리가 new 연산자로 어떤 객체를 생성했을 때 그 객체는 빈이 아니다
 
 ## Bean Factory란 무엇인가요 ?
