@@ -109,7 +109,7 @@ Collection 인터페이스를 상속받고 있지는 않지만 Collection으로 
 값(value)의 중복값은 허용**해요.
 
 ## Stream이란 무엇인가요 ?
-컬렉션, 배열 등에 대해 저장되어있는 요소들을 하나씩 참조하며 반복적인 처리를 가능하게 하는 기능이에요.  
+**컬렉션, 배열 등에 대해 저장되어있는 요소들을 하나씩 참조하며 반복적인 처리를 가능하게 하는 기능**이에요.  
 Stream을 사용하면 불필요한 반복문과 그 안에서 이루조지는 조건문을 사용하지 않고 깔끔하고 직관적인 코드를 작성할 수 있어요.  
 > Stream은 크게 Stream의 생성, 중개연산, 최종연산으로 구조가 나뉘어요.
 
@@ -117,13 +117,13 @@ Stream을 사용하면 불필요한 반복문과 그 안에서 이루조지는 �
 익명함수를 지칭하는 용어이며, **함수를 보다 단순하게 표현하는 방법**이에요. 
 
 ## Generic이란 무엇인가요 ?
-클래스나 메소드에서 사용할 내부 데이터 타입을 컴파일 시에 미리 지정하는 방법이에요.  
+**클래스나 메소드에서 사용할 내부 데이터 타입을 컴파일 시에 미리 지정하는 방법**이에요.  
 > 제네릭을 사용할 시 여러 타입의 Wrapper 클래스를 유동적으로 처리할 수 있으며,  
 > 클래스나 메소드 내부에서 사용되는 객체의 타입 안정성을 높일 수 있어요.  
 > 또한 반환값에 대한 타입 변환 및 타입 검사에 들어가는 노력을 줄일 수 있어요.
 
 ## Reflection이란 무엇인가요 ?
-구체적인 클래스 타입을 알지 못해도 그 클래스의 메소드, 타입, 변수들에 접근할 수 있도록 해주는 기술이에요.  
+**구체적인 클래스 타입을 알지 못해도 그 클래스의 메소드, 타입, 변수들에 접근할 수 있도록 해주는 기술**이에요.  
 > 리플렉션을 활용한 예시는 Spring의 의존성 주입(DI)이 있어요.
 
 ## GC에 대해 설명해주세요
@@ -142,20 +142,8 @@ ApplicationContext(BeanFactory)가 알고있는 객체,
 **Spring에 의하여 관리당하는 자바 객체**를 의미해요.
 > 우리가 new 연산자로 어떤 객체를 생성했을 때 그 객체는 빈이 아니다
 
-## Bean Factory란 무엇인가요 ?
-**빈의 생성과 관계설정 같은 제어를 담당하는 인터페이스**입니다.
-
-## ApplicationContext란 무엇이며 BeanFactory와의 차이점은 무엇인가요 ?
-ApplicationContext는 해당 애플리케이션에 대한 구성정보(Bean 포함)를 제공하는 인터페이스이며,  
-BeanFactory 인터페이스를 상속 받은 인터페이스 입니다.  
-
-BeanFactory와 ApplicationContext의 차이점은  
-BeanFactory는 지연로딩(lazy-loading)이며,  
-ApplicationContext는 사전로딩(pre-loading)입니다.
-> 상속 받았기에 BeanFactory의 기능을 사용가능하다 (Bean 관리)
-
-## Spring Container가 무엇인가요 ?
-자바 객체의 생명주기를 관리하며 생성된 자바 객체들에게 추가적인 기능을 제공하는 역할을 합니다.  
+## Spring Container(= BeanFactory, ApplicationContext)가 무엇인가요 ?
+**자바 객체의 생명주기를 관리하며 생성된 자바 객체들에게 추가적인 기능을 제공하는 역할**을 합니다.  
 자바 객체를 스프링에서는 빈(Bean)이라고 부르며,  
 스프링 컨네이너는 객체의 인스턴스를 싱글톤으로 관리하므로 싱글톤 컨테이너라고도 불립니다.
 > IOC container (DI container)  
@@ -164,6 +152,21 @@ ApplicationContext는 사전로딩(pre-loading)입니다.
 > 모두 같은 말이다.  
 > 
 > Spring Container의 싱글톤 패턴은 싱글톤 레지스트리를 통해 구현되었다.
+
+### Bean Factory란 무엇인가요 ?
+**빈의 생성과 관계설정 같은 제어를 담당하는 인터페이스**입니다.
+> (BeanFactory) 빈을 생성하고 관계를 설정하는 IOC 기본 기능에 초점을 맞춘 의미
+
+### ApplicationContext란 무엇이며 BeanFactory와의 차이점은 무엇인가요 ?
+**ApplicationContext는 해당 애플리케이션에 대한 구성정보(Bean 포함)를 제공하는 인터페이스**이며,  
+**BeanFactory 인터페이스를 상속 받은 인터페이스** 입니다.  
+
+BeanFactory와 ApplicationContext의 차이점은  
+**BeanFactory는 지연로딩(lazy-loading)**이며,  
+**ApplicationContext는 사전로딩(pre-loading)**입니다.
+
+> BeanFactory의 확장된 버전 (특별한 이유가 없다면 ApplicationContext를 사용한다.)  
+> (ApplicationContext) 별도의 정보를 참고해서 빈의 생성, 관계 설정 등의 제어를 총괄하는 것에 초점을 맞춘 의미
 
 ## DI가 무엇인가요 ?
 의존성 주입 즉, 객체를 생성하는게 아니라 객체를 외부에서 주입시켜주는 방식입니다.  
