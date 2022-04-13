@@ -137,8 +137,8 @@ Spring Boot는 **내부에 Tomcat이 포함되어있어 따로 설치하거나 �
 또한 **starter를 이용하여 개발 시작단계에 필요한 의존성들을 쉽게 관리**할 수 있습니다. (환경설정을 편하게 해준다.)
 
 ## Spring Bean에 대해 설명해주세요.
-ApplicationContext가 알고있는 객체,  
-즉 ApplicationContext가 만들어서 그 안에 담고있는 객체,  
+ApplicationContext(BeanFactory)가 알고있는 객체,  
+즉 ApplicationContext(BeanFactory)가 만들어서 그 안에 담고있는 객체,  
 Spring에 의하여 관리당하는 자바 객체를 의미해요.
 > 우리가 new 연산자로 어떤 객체를 생성했을 때 그 객체는 빈이 아니다
 
