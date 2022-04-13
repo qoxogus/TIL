@@ -145,6 +145,15 @@ Spring에 의하여 관리당하는 자바 객체를 의미해요.
 ## Bean Factory란 무엇인가요 ?
 **빈의 생성과 관계설정 같은 제어를 담당하는 인터페이스**입니다.
 
+## ApplicationContext란 무엇이며 BeanFactory와의 차이점은 무엇인가요 ?
+ApplicationContext는 해당 애플리케이션에 대한 구성정보(Bean 포함)를 제공하는 인터페이스이며,  
+BeanFactory 인터페이스를 상속 받은 인터페이스 입니다.  
+
+BeanFactory와 ApplicationContext의 차이점은  
+BeanFactory는 지연로딩(lazy-loading)이며,  
+ApplicationContext는 사전로딩(pre-loading)입니다.
+> 상속 받았기에 BeanFactory의 기능을 사용가능하다 (Bean 관리)
+
 ## Spring Container가 무엇인가요 ?
 자바 객체의 생명주기를 관리하며 생성된 자바 객체들에게 추가적인 기능을 제공하는 역할을 합니다.  
 자바 객체를 스프링에서는 빈(Bean)이라고 부르며,  
