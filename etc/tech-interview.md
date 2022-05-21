@@ -256,6 +256,19 @@ interceptor 또한 Controller로 요청이 전달되기 전에 요청에 대한 
 > 프레임워크는 코드가 흐름을 가지고 있으며,  
 > 라이브러리는 개발자가 흐름을 가지고 있습니다.
 
+## DDL, DML, DCL이 무엇인가요 ?
+### DDL
+* 데이터베이스의 스키마 객체에 관한 명령어 집단을 의미합니다.
+* 종류에는 `CREATE`, `ALTER`, `DROP`, `GRANT`, `REMOVE`, `COMMENT`, `TRUNCATE`가 있습니다.
+
+### DML
+* 데이터베이스 스키마 객체의 데이터에 관한 명령어 집단을 의미합니다.
+* 종류에는 `INSERT`, `SELECT`, `UPDATE`, `DELETE`, `LOCK TABLE`, `EXPLAIN PLAN`, `CALL` 등이 있습니다.
+
+### DCL
+* 트랜잭션의 성격을 제어하는 명령어 집단을 의미합니다.
+* 종류에는 `SET TRANSACTION`, `COMMIT`, `ROLLBACK`, `SAVEPOINT`와 같은 종류가 있습니다.
+
 ## 데이터베이스 트랜잭션의 4가지 속성에 대해서 설명해주세요.
 **ACID**라고 불리며 순서대로  
 * **원자성 (Actomicity)** : 한 트랜잭션 내에서 실행한 적업들은 하나의 단위로 처리한다.  
