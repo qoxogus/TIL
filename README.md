@@ -76,6 +76,7 @@
 - [Gateway란?](./network/gateway.md)
 - [스위치, 라우터, 허브](./network/switch-router-hurb.md)
 - [포트 포워딩이란 ?](./network/port-forwarding.md)
+- [OSI 7계층](./network/osi7.md)
 
 #### Computer Science
 - [compile, JustInTime compile 이란?](./cs/compile-jitcompile.md)
