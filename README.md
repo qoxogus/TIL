@@ -99,6 +99,7 @@
 #### Database
 - [DDL, DML, DCL](./Database/ddl,dml,dcl.md)
 - [Transaction (트랜잭션)](./Database/transaction.md)
+- [Transaction RollBack이 필요한 이유(상황)](./Database/rollback-need)
 - [Count](./Database/count.md)
 - [Limit, offset](./Database/limit-offset.md)
 - [order by와 정렬(ASC, DESC)](./Database/orderby-sort.md)
