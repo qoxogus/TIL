@@ -69,6 +69,7 @@
 - [HTTP](./web/http.md)
 - [프로토콜](./web/protocol.md)
 - [TCP/IP](./web/tcp-ip.md)
+- [TCP가 신뢰성을 보장하는 방법](./network/tcp-trust.md)
 - [IP 와 도메인](./web/ip-domain.md)
 - [웹 소켓](./web/web-socket.md)
 - [방화벽이란?](./network/firewall.md)
