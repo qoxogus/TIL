@@ -87,6 +87,7 @@
 - [직렬화란?](./cs/serialization.md)
 - [Memory 구조, 메모리구조는 알고 코딩하고 계신가요?](./cs/memory-structure.md)
 - [cache란?](./cs/cache.md)
+- [Buffer Cache란?](./cs/buffer-cache.md)
 - [교착상태(DeadLock)와 교착상태의 해결, 예방, 회피, 탐지, 복구](./cs/deadlock.md)
 
 #### Data Structure, Algorithm
