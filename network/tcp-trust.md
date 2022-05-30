@@ -19,3 +19,26 @@ TCP 재전송은 보냈던 패킷을 다시 한번 보내기 때문에 네트워
 이를 통해 TCP를 통해 주고 받은 데이터는 정확한 데이터라고 확신하게 됩니다.  
 
 이러하여 TCP가 신뢰성이 있다고 말할 수 있는거죠.
+
+![](../img/tcp-way.png)
+
+위를 보면 3way handshake 과정 이후에 들어온 요청의 packet이 유실되어 time out이 발생되고, 재전송을 하며 수신지에서 받았다는 응답을 보내줍니다.
+
+### 어떻게 요청을 받는 쪽에서는 TCP Segment에 오류가 있는지 알 수 있나요 ?
+이를 확인하기에 앞서 TCP Segment의 Header 부분을 볼 필요가 있습니다.  
+![](../img/tcp-header.png)
+
+위 TCP Header에서 오류를 체크하는 부분은 128비트 부터 시작하는 Checksum 부분입니다.  
+이 Checksum Error Detecting을 통해 수신자는 송신자가 보낸 데이터가 제대로 보내졌는지 확인 할 수 있으며 잘못보내졌을 경우 위 TCP Flag 중에서 ACK Flag를 reset(0)하여 보냅니다.  
+제대로 보내졌을 경우에는 ACK Flag를 set(1)하고 Acknowlegment number에 수신자가 받았던 sequence number에 1을 더한 sequence number+1의 값을 넣어서 보내줍니다.
+
+### 순서가 뒤바뀐 TCP Segment는 어떻게 처리하나요 ?
+순서가 뒤바뀐 TCP 또한 잘 처리할 수 있습니다.  
+왜냐하면 Sequence number가 있기 대문에 수신자 측에서 이러한 Sequence nember 순서대로 데이터 청크들을 잘 붙여주기만 하면 되기 때문입니다.  
+
+### 만약 수신자가 송신자에게 ACK, NAK도 못 보낼 상황이라면 ?
+이러한 경우에는 `timeout` 개념을 사용합니다.  
+일정 시간동안 ACK 또는 NAK이 오지 않는다면 timeout된 시점에서 다시 TCP Segment를 보내주게 됩니다.  
+timeout 주기를 너무 길게 생성하면 퍼포먼스의 하락을 가져오고 너무 짧게 설정해도 계속 다시 쓰기 때문에 역시 퍼포먼스의 하락을 가져옵니다.
+
+최근 추이에 따라 `RTO(Retransmission Time Out)`을 사용하여 타이머의 작동 시간을 가져옵니다.
