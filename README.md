@@ -38,7 +38,7 @@
 - [Strategy Pattern](./design-pattern/strategy-pattern.md)
 - [Proxy Pattern](./design-pattern/proxy-pattern.md)
 
-#### SpringBoot
+#### Spring
 - [Spring](./spring/spring.md)
 - [Spring-Boot](./spring/spring-boot.md)
 - [Container](./spring/container.md)
@@ -50,6 +50,7 @@
 - [DAO, DTO, EntityClass](./spring/dao,dto,entity-class.md)
 - [Spring Security?](./spring-security/spring-security.md)
 - [SpringBoot에서 사용하는 Annotation정리](./spring/annotation.md)
+- [Spring Batch](./spring/spring-batch.md)
 - [SpringBoot에서 Ehcache 사용해보기](./spring/ehcache.md)
 - [@Transactional 옵션과 Spring 트랜잭션 처리 전략에 대해서](https://baeter.tistory.com/14)
 - [service의 구현체를 하나만 구현해도 interface를 사용하여 impl로 구현하는 이유](./spring/service-impl.md)
