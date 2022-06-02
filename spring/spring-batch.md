@@ -2,7 +2,7 @@
 
 Spring Batch를 알기전에 배치 어플리케이션에 대해 먼저 알아야겠죠.  
 
-### 배치 애플리케이션이란 ?
+## 배치 애플리케이션이란 ?
 먼저 batch란 `일괄처리`란 뜻을 갖고 있습니다.  
 
 만약 매일 전 날의 데이터를 집계 해야한다고 가정해봅시다.  
@@ -38,10 +38,17 @@ Spring Batch를 소개하기 전에 배치 어플리케이션이라나 어떤 �
 
 그럼 이제 이 조건들을 만족하는 Spring Batch를 소개해보겠습니다.
 
-### Spring Batch ?
+## Spring Batch ?
 Spring Batch는 Accenture와 Spring Source의 공동 작업으로 2007년에 탄생했습니다.  
 Accenture는 수년간의 노력으로 그들만의 배치 프레임워크를 만들었고, 그를 통해 얻은 경험을 가지고 있었습니다.  
-즉, Accenture의 배치 노하우 & 기술력과 Spring 프레임워크가 합쳐져 만들어진 것이 Spring Batch 입니다.  
+즉, Accenture의 배치 노하우 & 기술력과 Spring 프레임워크가 합쳐져 만들어진 것이 **Spring Batch** 입니다.  
 
 Spring Batch는 Spring의 특성을 그대로 가져왔습니다.  
-DI, AOP, 서비스 추상화 등 Spring 프레임워크의 3대 요소를 모두 사용할 수 있으면서, Accenture의 Batch 노하우가 담긴 아키텍쳐를 사용할 수 있습니다.  
+**DI, AOP, 서비스 추상화** 등 Spring 프레임워크의 3대 요소를 모두 사용할 수 있으면서, Accenture의 Batch 노하우가 담긴 아키텍쳐를 사용할 수 있습니다.  
+
+## Batch vs Quartz ?
+간혹 Spring Batch와 Spring Quartz를 비교하는 글이 있는데요,  
+**둘의 역할을 완전히 다릅니다.**  
+**Quartz는 스케쥴러의 역할**이지, **Batch와 같이 대용량 데이터 배치 처리에 대한 기능을 지원하지 않습니다.**  
+반대로 Batch 역시 Quartz의 다양한 스케쥴 기능을 지원하지 않아서 보통은 Batch + Quartz를 조합해서 사용합니다.  
+**정해진 스케줄마다 Quartz가 Spring Batch를 실행하는 구조**라고 보시면 됩니다.
