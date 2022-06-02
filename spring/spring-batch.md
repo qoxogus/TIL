@@ -39,3 +39,9 @@ Spring Batch를 소개하기 전에 배치 어플리케이션이라나 어떤 �
 그럼 이제 이 조건들을 만족하는 Spring Batch를 소개해보겠습니다.
 
 ### Spring Batch ?
+Spring Batch는 Accenture와 Spring Source의 공동 작업으로 2007년에 탄생했습니다.  
+Accenture는 수년간의 노력으로 그들만의 배치 프레임워크를 만들었고, 그를 통해 얻은 경험을 가지고 있었습니다.  
+즉, Accenture의 배치 노하우 & 기술력과 Spring 프레임워크가 합쳐져 만들어진 것이 Spring Batch 입니다.  
+
+Spring Batch는 Spring의 특성을 그대로 가져왔습니다.  
+DI, AOP, 서비스 추상화 등 Spring 프레임워크의 3대 요소를 모두 사용할 수 있으면서, Accenture의 Batch 노하우가 담긴 아키텍쳐를 사용할 수 있습니다.  
