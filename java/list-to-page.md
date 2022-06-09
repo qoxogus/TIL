@@ -3,27 +3,20 @@
 해결한 코드부터 보자면 아래와 같은 방법을 사용했다.  
 자신의 상황과 맞게 코드를 변경해서 사용하자.
 
+> Querydsl 환경인 것을 참고하자
+
 ```java
 // List To Page
-final int start = (int)pageable.getOffset();
-final int end = Math.min((start + pageable.getPageSize()), allRequestList.size());
-final Page<GetRequestListResDTO> requestListPages = new PageImpl<>(allRequestList.subList(start, end), pageable, allRequestList.size());
+List<Board> content = boardQueryResults.getResults();
+
+long total = boardQueryResults.getTotal();
+
+return new PageImpl<>(content, pageable, total);
 ```
-
-* `pageble.getOffset();` : [스프링 프레임워크 Pageble 공식 문서](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/domain/Pageable.html)를 보면 이렇게 적혀있다.
-    > Returns the offset to be taken according to the underlying page and page size.  
-    > 기본 페이지 및 페이지 크기에 따라 취할 오프셋을 반환합니다.
-
-    즉 이걸 시작점으로 잡는거다.
-
-* `Math.min()` : 입력받은 두개의 인자 값 중에 작은 값을 리턴하는 메서드이다.  
-인자 값으로는 `int`, `float`, `long`, `double` 등을 사용할 수 있다.
-
 * `PageImpl<>()` : Page 인터페이스를 구현한 구현체로 수동으로 Page 타입을 만들 수 있다.
 
-* `subList()` : 말 그대로 array를 자르는 메서드다.
-
 추가로 Page로 처리했을 때 반환되는 값을 정리합니다.
+
 ```json
 "pageable": {
             "sort": {
