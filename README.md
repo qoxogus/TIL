@@ -65,6 +65,7 @@
 - [Elastic Beanstalk 환경에서 서브도메인을 설정하는 방법](./devops/aws/eb-sub-domain.md)
 - [Elastic Beanstalk 환경에서 Spring Boot Profile 적용해서 서버 돌리는 방법](./devops/aws/eb-profile.md)
 - [구입한 도메인 Amplify에서 연결하기](./devops/aws/amplify-domain.md)
+- [Serverless란?](./devops/serverless.md)
 
 #### Network
 - [네크워크](./web/network.md)
