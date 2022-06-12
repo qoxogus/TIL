@@ -92,6 +92,7 @@
 - [cache란?](./cs/cache.md)
 - [Buffer Cache란?](./cs/buffer-cache.md)
 - [교착상태(DeadLock)와 교착상태의 해결, 예방, 회피, 탐지, 복구](./cs/deadlock.md)
+- [Stateful, Stateless란](./cs/stateful-stateless.md)
 
 #### Data Structure, Algorithm
 - [자료구조란 ?](./datastructure/datastructure.md)
