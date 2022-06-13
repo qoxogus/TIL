@@ -116,6 +116,7 @@
 #### JPA, JPQL
 - [fetch join](./Database/jpa-jpql/fetchjoin.md)
 - [N+1 문제와 해결](https://baeter.tistory.com/11)
+- [Hibernate default_batch_fetch_size 옵션](./Database/jpa-jpql/batch-fetch.md)
 
 #### Rest
 - [REST](./web/rest.md)
