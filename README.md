@@ -32,6 +32,7 @@
 - [동시성 문제와 ThreadLocal](https://baeter.tistory.com/12)
 - [List To Page](./java/list-to-page.md)
 - [Mockito 란?](./java/mockito.md)
+- [Call By Value, Call By Reference](./java/cbv-cbr.md)
 
 #### Design Pattern
 - [Singleton Pattern](./design-pattern/singleton-pattern.md)
