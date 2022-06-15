@@ -56,6 +56,7 @@
 - [SpringBoot에서 Ehcache 사용해보기](./spring/ehcache.md)
 - [@Transactional 옵션과 Spring 트랜잭션 처리 전략에 대해서](https://baeter.tistory.com/14)
 - [service의 구현체를 하나만 구현해도 interface를 사용하여 impl로 구현하는 이유](./spring/service-impl.md)
+- [Spring Rest Docs](./spring/spring-rest-docs.md)
 
 #### DevOps
 - [온 프레미스, 오프 프레미스](./devops/on-off-premise.md)
