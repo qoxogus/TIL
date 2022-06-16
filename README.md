@@ -11,13 +11,15 @@
 - [SOLID](./oop/solid.md)
 
 #### Java
+- [Primitive type과 Reference type](./java/primitive-reference.md)
+- [Call By Value, Call By Reference](./java/cbv-cbr.md)
+- [Wrapper Class 란?](./java/wrapper-class.md)
 - [생성자란?](./java/constructor.md)
 - [JVM 이란?](./java/jvm.md)
 - [JVM의 메모리구조](./java/jvm-memory-structure.md)
 - [JVM, JRE, JDK의 차이](./java/jvm-jre-jdk.md)
 - [Jackson 라이브러리 알아보기](./java/jackson.md)
 - [IS-A 관계란 ?](./java/is-a.md)
-- [Wrapper Class 란?](./java/wrapper-class.md)
 - [Garbage Collector(GC) 이해하기](./java/gc.md)
 - [Builder 패턴을 사용해야하는 이유](./java/use-builder.md)
 - [String대신 StringBuilder를 사용해야하는 이유(StringBuffer)](./java/stringbuilder.md)
@@ -32,7 +34,6 @@
 - [동시성 문제와 ThreadLocal](https://baeter.tistory.com/12)
 - [List To Page](./java/list-to-page.md)
 - [Mockito 란?](./java/mockito.md)
-- [Call By Value, Call By Reference](./java/cbv-cbr.md)
 
 #### Design Pattern
 - [Singleton Pattern](./design-pattern/singleton-pattern.md)
@@ -105,27 +106,27 @@
     - [이진 탐색 트리와 이진 트리의 종류](./datastructure/binary-search-tree.md)
 
 #### Database
-- [DDL, DML, DCL](./Database/ddl,dml,dcl.md)
-- [Transaction (트랜잭션)](./Database/transaction.md)
-- [Transaction RollBack이 필요한 이유(상황)](./Database/rollback-need.md)
-- [Count](./Database/count.md)
-- [Limit, offset](./Database/limit-offset.md)
-- [order by와 정렬(ASC, DESC)](./Database/orderby-sort.md)
-- [group by, having](./Database/groupby-having.md)
-- [Join의 종류와 차이](./Database/join.md)
-- [Slow Query](./Database/slow-query.md)
+- [DDL, DML, DCL](./database/ddl,dml,dcl.md)
+- [Transaction (트랜잭션)](./database/transaction.md)
+- [Transaction RollBack이 필요한 이유(상황)](./database/rollback-need.md)
+- [Count](./database/count.md)
+- [Limit, offset](./database/limit-offset.md)
+- [order by와 정렬(ASC, DESC)](./database/orderby-sort.md)
+- [group by, having](./database/groupby-having.md)
+- [Join의 종류와 차이](./database/join.md)
+- [Slow Query](./database/slow-query.md)
 
 #### JPA, JPQL
-- [fetch join](./Database/jpa-jpql/fetchjoin.md)
+- [fetch join](./database/jpa-jpql/fetchjoin.md)
 - [N+1 문제와 해결](https://baeter.tistory.com/11)
-- [Hibernate default_batch_fetch_size 옵션](./Database/jpa-jpql/batch-fetch.md)
+- [Hibernate default_batch_fetch_size 옵션](./database/jpa-jpql/batch-fetch.md)
 
 #### Rest
 - [REST](./web/rest.md)
 - [REST API](./web/restapi.md)
 - [RESTful](./web/restful.md)
 
-#### Web etc.
+#### Etc.
 - [WEB의 동작방식](./web/move.md)
 - [Back-End](./web/backend-study.md)
 - [웹 서버](./web/web-server.md)
