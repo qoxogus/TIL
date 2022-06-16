@@ -35,12 +35,6 @@
 - [List To Page](./java/list-to-page.md)
 - [Mockito 란?](./java/mockito.md)
 
-#### Design Pattern
-- [Singleton Pattern](./design-pattern/singleton-pattern.md)
-- [Builder Pattern](./design-pattern/builder-pattern.md)
-- [Strategy Pattern](./design-pattern/strategy-pattern.md)
-- [Proxy Pattern](./design-pattern/proxy-pattern.md)
-
 #### Spring
 - [Spring](./spring/spring.md)
 - [Spring-Boot](./spring/spring-boot.md)
@@ -59,6 +53,12 @@
 - [service의 구현체를 하나만 구현해도 interface를 사용하여 impl로 구현하는 이유](./spring/service-impl.md)
 - [Spring Rest Docs](./spring/spring-rest-docs.md)
 
+#### Design Pattern
+- [Singleton Pattern](./design-pattern/singleton-pattern.md)
+- [Builder Pattern](./design-pattern/builder-pattern.md)
+- [Strategy Pattern](./design-pattern/strategy-pattern.md)
+- [Proxy Pattern](./design-pattern/proxy-pattern.md)
+
 #### DevOps
 - [온 프레미스, 오프 프레미스](./devops/on-off-premise.md)
 - [DevOps](./devops/devops.md)
@@ -72,8 +72,8 @@
 
 #### Network
 - [네크워크](./web/network.md)
-- [HTTP](./web/http.md)
 - [프로토콜](./web/protocol.md)
+- [HTTP](./web/http.md)
 - [TCP/IP](./web/tcp-ip.md)
 - [TCP가 신뢰성을 보장하는 방법](./network/tcp-trust.md)
 - [IP 와 도메인](./web/ip-domain.md)
@@ -86,12 +86,12 @@
 - [OSI 7계층](./network/osi7.md)
 
 #### Computer Science
+- [Memory 구조, 메모리구조는 알고 코딩하고 계신가요?](./cs/memory-structure.md)
 - [compile, JustInTime compile 이란?](./cs/compile-jitcompile.md)
 - [Thread 란?](./cs/thread.md)
 - [Multi Thread 란?](./cs/multi-thread.md)
 - [Thread Safe 란?](./cs/thread-safe.md)
 - [직렬화란?](./cs/serialization.md)
-- [Memory 구조, 메모리구조는 알고 코딩하고 계신가요?](./cs/memory-structure.md)
 - [cache란?](./cs/cache.md)
 - [Buffer Cache란?](./cs/buffer-cache.md)
 - [교착상태(DeadLock)와 교착상태의 해결, 예방, 회피, 탐지, 복구](./cs/deadlock.md)
