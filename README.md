@@ -34,6 +34,7 @@
 - [동시성 문제와 ThreadLocal](https://baeter.tistory.com/12)
 - [List To Page](./java/list-to-page.md)
 - [Mockito](./java/mockito.md)
+- [자바에서 상속을 막는 방법](./java/block-inheritance.md)
 
 #### Spring
 - [Spring](./spring/spring.md)
